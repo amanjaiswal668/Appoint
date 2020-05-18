@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC4AF753BE2C67834F55B84 /* Pods_Appoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D88E78BC4A7F649DEB1D407 /* Pods_Appoint.framework */; };
+		F115623A24405BC200F89430 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F115623924405BC200F89430 /* Constants.swift */; };
+		F11562402440F46500F89430 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F115623F2440F46500F89430 /* HomeViewController.swift */; };
+		F11562422440F6BC00F89430 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11562412440F6BC00F89430 /* AddUserViewController.swift */; };
+		F11562442440F6CD00F89430 /* SosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11562432440F6CD00F89430 /* SosViewController.swift */; };
+		F115624B244220E800F89430 /* DoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1156249244220E800F89430 /* DoctorTableViewCell.swift */; };
+		F115624C244220E800F89430 /* DoctorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F115624A244220E800F89430 /* DoctorTableViewCell.xib */; };
+		F115624E2443158200F89430 /* CustomDoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F115624D2443158200F89430 /* CustomDoctorCard.swift */; };
+		F115625124431B6D00F89430 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F115624F24431B6D00F89430 /* AppointmentViewController.swift */; };
+		F14F7016246E6DC2009ABB3B /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14F7014246E6DC2009ABB3B /* PatientTableViewCell.swift */; };
+		F14F7017246E6DC2009ABB3B /* PatientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F14F7015246E6DC2009ABB3B /* PatientTableViewCell.xib */; };
+		F14F7019246F9E3E009ABB3B /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14F7018246F9E3E009ABB3B /* DatePicker.swift */; };
+		F15F58C9243F58F900E43AA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F15F58C8243F58F900E43AA2 /* GoogleService-Info.plist */; };
+		F1EE7704243C7CDD00F0E549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7703243C7CDD00F0E549 /* AppDelegate.swift */; };
+		F1EE7706243C7CDD00F0E549 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7705243C7CDD00F0E549 /* SceneDelegate.swift */; };
+		F1EE7708243C7CDD00F0E549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7707243C7CDD00F0E549 /* ViewController.swift */; };
+		F1EE770B243C7CDD00F0E549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EE7709243C7CDD00F0E549 /* Main.storyboard */; };
+		F1EE770D243C7CE000F0E549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EE770C243C7CE000F0E549 /* Assets.xcassets */; };
+		F1EE7710243C7CE000F0E549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EE770E243C7CE000F0E549 /* LaunchScreen.storyboard */; };
+		F1EE771B243C7DCC00F0E549 /* AppointMelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F1EE771A243C7DCC00F0E549 /* AppointMelogo.png */; };
+		F1EE771D243C820E00F0E549 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE771C243C820E00F0E549 /* CustomButton.swift */; };
+		F1EE771F243CEF7300F0E549 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE771E243CEF7300F0E549 /* LoginViewController.swift */; };
+		F1EE7721243CF3D100F0E549 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7720243CF3D100F0E549 /* ButtonDesign.swift */; };
+		F1EE7723243D0FE900F0E549 /* keyboardOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7722243D0FE900F0E549 /* keyboardOff.swift */; };
+		F1EE7726243D192100F0E549 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7725243D192100F0E549 /* SignUpViewController.swift */; };
+		F1EE7728243D19A700F0E549 /* UIViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7727243D19A700F0E549 /* UIViewDesign.swift */; };
+		F1EE772A243D1C4D00F0E549 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7729243D1C4D00F0E549 /* UITextField.swift */; };
+		F1EE772C243D200500F0E549 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = F1EE772B243D200500F0E549 /* logout.png */; };
+		F1EE7730243DDD7200F0E549 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = F1EE772F243DDD7200F0E549 /* 40.png */; };
+		F1EE7732243DE42E00F0E549 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7731243DE42E00F0E549 /* TabBarViewController.swift */; };
+		F1EE7734243DE50400F0E549 /* UIViewContoller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE7733243DE50400F0E549 /* UIViewContoller+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D88E78BC4A7F649DEB1D407 /* Pods_Appoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D554D64121AE50F877BFE236 /* Pods-Appoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appoint.release.xcconfig"; path = "Target Support Files/Pods-Appoint/Pods-Appoint.release.xcconfig"; sourceTree = "<group>"; };
+		F115623924405BC200F89430 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F115623F2440F46500F89430 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F11562412440F6BC00F89430 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		F11562432440F6CD00F89430 /* SosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosViewController.swift; sourceTree = "<group>"; };
+		F1156249244220E800F89430 /* DoctorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTableViewCell.swift; sourceTree = "<group>"; };
+		F115624A244220E800F89430 /* DoctorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorTableViewCell.xib; sourceTree = "<group>"; };
+		F115624D2443158200F89430 /* CustomDoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDoctorCard.swift; sourceTree = "<group>"; };
+		F115624F24431B6D00F89430 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		F14F7014246E6DC2009ABB3B /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
+		F14F7015246E6DC2009ABB3B /* PatientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientTableViewCell.xib; sourceTree = "<group>"; };
+		F14F7018246F9E3E009ABB3B /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		F15F58C8243F58F900E43AA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F199DF3D8772F967D2C91676 /* Pods-Appoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appoint.debug.xcconfig"; path = "Target Support Files/Pods-Appoint/Pods-Appoint.debug.xcconfig"; sourceTree = "<group>"; };
+		F1EE7700243C7CDD00F0E549 /* Appoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EE7703243C7CDD00F0E549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1EE7705243C7CDD00F0E549 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1EE7707243C7CDD00F0E549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1EE770A243C7CDD00F0E549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1EE770C243C7CE000F0E549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1EE770F243C7CE000F0E549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1EE7711243C7CE000F0E549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EE771A243C7DCC00F0E549 /* AppointMelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppointMelogo.png; path = Appoint/OwnAssets/AppointMelogo.png; sourceTree = SOURCE_ROOT; };
+		F1EE771C243C820E00F0E549 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F1EE771E243CEF7300F0E549 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F1EE7720243CF3D100F0E549 /* ButtonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
+		F1EE7722243D0FE900F0E549 /* keyboardOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardOff.swift; sourceTree = "<group>"; };
+		F1EE7725243D192100F0E549 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F1EE7727243D19A700F0E549 /* UIViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewDesign.swift; sourceTree = "<group>"; };
+		F1EE7729243D1C4D00F0E549 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		F1EE772B243D200500F0E549 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		F1EE772F243DDD7200F0E549 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 40.png; path = Addicon/Assets.xcassets/AppIcon.appiconset/40.png; sourceTree = "<group>"; };
+		F1EE7731243DE42E00F0E549 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F1EE7733243DE50400F0E549 /* UIViewContoller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewContoller+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1EE76FD243C7CDD00F0E549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC4AF753BE2C67834F55B84 /* Pods_Appoint.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1767F9044E94CD5030DD6419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D88E78BC4A7F649DEB1D407 /* Pods_Appoint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4819FD1EAFAEDAB1639C2F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F199DF3D8772F967D2C91676 /* Pods-Appoint.debug.xcconfig */,
+				D554D64121AE50F877BFE236 /* Pods-Appoint.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1EE76F7243C7CDD00F0E549 = {
+			isa = PBXGroup;
+			children = (
+				F1EE7702243C7CDD00F0E549 /* Appoint */,
+				F1EE7701243C7CDD00F0E549 /* Products */,
+				C4819FD1EAFAEDAB1639C2F9 /* Pods */,
+				1767F9044E94CD5030DD6419 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1EE7701243C7CDD00F0E549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE7700243C7CDD00F0E549 /* Appoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1EE7702243C7CDD00F0E549 /* Appoint */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE7719243C7D0900F0E549 /* Controllers */,
+				F1EE7718243C7D0000F0E549 /* Helpers_Extensions */,
+				F1EE7717243C7CF500F0E549 /* OwnAssets */,
+				F1EE7703243C7CDD00F0E549 /* AppDelegate.swift */,
+				F1EE7705243C7CDD00F0E549 /* SceneDelegate.swift */,
+				F1EE7707243C7CDD00F0E549 /* ViewController.swift */,
+				F1EE7709243C7CDD00F0E549 /* Main.storyboard */,
+				F1EE770C243C7CE000F0E549 /* Assets.xcassets */,
+				F1EE770E243C7CE000F0E549 /* LaunchScreen.storyboard */,
+				F1EE7711243C7CE000F0E549 /* Info.plist */,
+				F15F58C8243F58F900E43AA2 /* GoogleService-Info.plist */,
+			);
+			path = Appoint;
+			sourceTree = "<group>";
+		};
+		F1EE7717243C7CF500F0E549 /* OwnAssets */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE771A243C7DCC00F0E549 /* AppointMelogo.png */,
+				F1EE772B243D200500F0E549 /* logout.png */,
+				F1EE772F243DDD7200F0E549 /* 40.png */,
+			);
+			path = OwnAssets;
+			sourceTree = "<group>";
+		};
+		F1EE7718243C7D0000F0E549 /* Helpers_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE7720243CF3D100F0E549 /* ButtonDesign.swift */,
+				F115623924405BC200F89430 /* Constants.swift */,
+				F1EE771C243C820E00F0E549 /* CustomButton.swift */,
+				F115624D2443158200F89430 /* CustomDoctorCard.swift */,
+				F1EE7722243D0FE900F0E549 /* keyboardOff.swift */,
+				F1EE7729243D1C4D00F0E549 /* UITextField.swift */,
+				F1EE7733243DE50400F0E549 /* UIViewContoller+Extension.swift */,
+				F1EE7727243D19A700F0E549 /* UIViewDesign.swift */,
+				F14F7018246F9E3E009ABB3B /* DatePicker.swift */,
+			);
+			path = Helpers_Extensions;
+			sourceTree = "<group>";
+		};
+		F1EE7719243C7D0900F0E549 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE7725243D192100F0E549 /* SignUpViewController.swift */,
+				F1EE771E243CEF7300F0E549 /* LoginViewController.swift */,
+				F1EE7731243DE42E00F0E549 /* TabBarViewController.swift */,
+				F115623F2440F46500F89430 /* HomeViewController.swift */,
+				F11562412440F6BC00F89430 /* AddUserViewController.swift */,
+				F1156249244220E800F89430 /* DoctorTableViewCell.swift */,
+				F115624A244220E800F89430 /* DoctorTableViewCell.xib */,
+				F11562432440F6CD00F89430 /* SosViewController.swift */,
+				F115624F24431B6D00F89430 /* AppointmentViewController.swift */,
+				F14F7014246E6DC2009ABB3B /* PatientTableViewCell.swift */,
+				F14F7015246E6DC2009ABB3B /* PatientTableViewCell.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1EE76FF243C7CDD00F0E549 /* Appoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EE7714243C7CE000F0E549 /* Build configuration list for PBXNativeTarget "Appoint" */;
+			buildPhases = (
+				974185970B383DD81C46F4C6 /* [CP] Check Pods Manifest.lock */,
+				F1EE76FC243C7CDD00F0E549 /* Sources */,
+				F1EE76FD243C7CDD00F0E549 /* Frameworks */,
+				F1EE76FE243C7CDD00F0E549 /* Resources */,
+				9EA01D4B5EA2ADF9EDEF99A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Appoint;
+			productName = Appoint;
+			productReference = F1EE7700243C7CDD00F0E549 /* Appoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1EE76F8243C7CDD00F0E549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Aman Jaiswal";
+				TargetAttributes = {
+					F1EE76FF243C7CDD00F0E549 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F1EE76FB243C7CDD00F0E549 /* Build configuration list for PBXProject "Appoint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1EE76F7243C7CDD00F0E549;
+			productRefGroup = F1EE7701243C7CDD00F0E549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1EE76FF243C7CDD00F0E549 /* Appoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1EE76FE243C7CDD00F0E549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EE7710243C7CE000F0E549 /* LaunchScreen.storyboard in Resources */,
+				F1EE770D243C7CE000F0E549 /* Assets.xcassets in Resources */,
+				F1EE772C243D200500F0E549 /* logout.png in Resources */,
+				F1EE771B243C7DCC00F0E549 /* AppointMelogo.png in Resources */,
+				F1EE770B243C7CDD00F0E549 /* Main.storyboard in Resources */,
+				F14F7017246E6DC2009ABB3B /* PatientTableViewCell.xib in Resources */,
+				F1EE7730243DDD7200F0E549 /* 40.png in Resources */,
+				F115624C244220E800F89430 /* DoctorTableViewCell.xib in Resources */,
+				F15F58C9243F58F900E43AA2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		974185970B383DD81C46F4C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA01D4B5EA2ADF9EDEF99A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appoint/Pods-Appoint-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appoint/Pods-Appoint-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appoint/Pods-Appoint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1EE76FC243C7CDD00F0E549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EE771D243C820E00F0E549 /* CustomButton.swift in Sources */,
+				F1EE772A243D1C4D00F0E549 /* UITextField.swift in Sources */,
+				F1EE7732243DE42E00F0E549 /* TabBarViewController.swift in Sources */,
+				F1EE7708243C7CDD00F0E549 /* ViewController.swift in Sources */,
+				F1EE7726243D192100F0E549 /* SignUpViewController.swift in Sources */,
+				F1EE7728243D19A700F0E549 /* UIViewDesign.swift in Sources */,
+				F11562442440F6CD00F89430 /* SosViewController.swift in Sources */,
+				F115623A24405BC200F89430 /* Constants.swift in Sources */,
+				F14F7019246F9E3E009ABB3B /* DatePicker.swift in Sources */,
+				F1EE7704243C7CDD00F0E549 /* AppDelegate.swift in Sources */,
+				F1EE7721243CF3D100F0E549 /* ButtonDesign.swift in Sources */,
+				F1EE771F243CEF7300F0E549 /* LoginViewController.swift in Sources */,
+				F11562422440F6BC00F89430 /* AddUserViewController.swift in Sources */,
+				F11562402440F46500F89430 /* HomeViewController.swift in Sources */,
+				F115624E2443158200F89430 /* CustomDoctorCard.swift in Sources */,
+				F1EE7734243DE50400F0E549 /* UIViewContoller+Extension.swift in Sources */,
+				F115624B244220E800F89430 /* DoctorTableViewCell.swift in Sources */,
+				F1EE7706243C7CDD00F0E549 /* SceneDelegate.swift in Sources */,
+				F14F7016246E6DC2009ABB3B /* PatientTableViewCell.swift in Sources */,
+				F115625124431B6D00F89430 /* AppointmentViewController.swift in Sources */,
+				F1EE7723243D0FE900F0E549 /* keyboardOff.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1EE7709243C7CDD00F0E549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EE770A243C7CDD00F0E549 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1EE770E243C7CE000F0E549 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EE770F243C7CE000F0E549 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1EE7712243C7CE000F0E549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1EE7713243C7CE000F0E549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1EE7715243C7CE000F0E549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F199DF3D8772F967D2C91676 /* Pods-Appoint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Appoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanjaiswal.Appoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1EE7716243C7CE000F0E549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D554D64121AE50F877BFE236 /* Pods-Appoint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Appoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanjaiswal.Appoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1EE76FB243C7CDD00F0E549 /* Build configuration list for PBXProject "Appoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EE7712243C7CE000F0E549 /* Debug */,
+				F1EE7713243C7CE000F0E549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EE7714243C7CE000F0E549 /* Build configuration list for PBXNativeTarget "Appoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EE7715243C7CE000F0E549 /* Debug */,
+				F1EE7716243C7CE000F0E549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1EE76F8243C7CDD00F0E549 /* Project object */;
+}

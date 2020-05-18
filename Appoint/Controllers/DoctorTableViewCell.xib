@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DoctorTableViewCell" rowHeight="125" id="KGk-i7-Jjw" customClass="DoctorTableViewCell" customModule="Appoint" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="b4h-zb-HHB">
+                        <rect key="frame" x="10" y="10" width="387" height="111"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zQB-yO-zj4">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="5WE-JF-sTd"/>
+                                    <constraint firstAttribute="height" constant="110" id="Zoi-yr-CSC"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BSH-OB-Sml">
+                                <rect key="frame" x="105" y="0.0" width="282" height="111"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAi-F4-aH7" customClass="customLabel" customModule="Appoint" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="10" width="262" height="20.5"/>
+                                        <color key="backgroundColor" red="0.48756223809556665" green="0.44613811326161507" blue="0.7982395119863015" alpha="0.36799015410958902" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rk6-8u-uhx" customClass="customLabel" customModule="Appoint" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="40.5" width="262" height="20.5"/>
+                                        <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="0.46061643835616439" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABK-Hr-2Yy" customClass="DoctorButton" customModule="Appoint" customModuleProvider="target">
+                                        <rect key="frame" x="77" y="71" width="195" height="30"/>
+                                        <color key="backgroundColor" red="0.37952690514285198" green="0.71390732020547942" blue="0.64837623950490697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="doctorContact:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="il5-Qe-tgc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.35011772260273971" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="SAi-F4-aH7" secondAttribute="trailing" constant="10" id="0IK-Jg-t0o"/>
+                                    <constraint firstItem="SAi-F4-aH7" firstAttribute="top" secondItem="BSH-OB-Sml" secondAttribute="top" constant="10" id="1j5-6R-aGe"/>
+                                    <constraint firstItem="rk6-8u-uhx" firstAttribute="top" secondItem="SAi-F4-aH7" secondAttribute="bottom" constant="10" id="1mJ-jo-4h5"/>
+                                    <constraint firstAttribute="trailing" secondItem="rk6-8u-uhx" secondAttribute="trailing" constant="10" id="Llz-5z-N46"/>
+                                    <constraint firstAttribute="bottom" secondItem="ABK-Hr-2Yy" secondAttribute="bottom" constant="10" id="MZt-t5-0do"/>
+                                    <constraint firstItem="ABK-Hr-2Yy" firstAttribute="top" secondItem="rk6-8u-uhx" secondAttribute="bottom" constant="10" id="OMa-iS-j45"/>
+                                    <constraint firstItem="rk6-8u-uhx" firstAttribute="leading" secondItem="BSH-OB-Sml" secondAttribute="leading" constant="10" id="W8n-4t-aHc"/>
+                                    <constraint firstAttribute="trailing" secondItem="SAi-F4-aH7" secondAttribute="trailing" constant="10" id="d5F-x0-FMC"/>
+                                    <constraint firstItem="ABK-Hr-2Yy" firstAttribute="leading" secondItem="BSH-OB-Sml" secondAttribute="leading" constant="77" id="hY6-Ar-1Do"/>
+                                    <constraint firstItem="SAi-F4-aH7" firstAttribute="leading" secondItem="BSH-OB-Sml" secondAttribute="leading" constant="10" id="hb9-re-xWs"/>
+                                    <constraint firstItem="SAi-F4-aH7" firstAttribute="top" secondItem="BSH-OB-Sml" secondAttribute="top" constant="10" id="pvg-NY-9kh"/>
+                                    <constraint firstAttribute="trailing" secondItem="ABK-Hr-2Yy" secondAttribute="trailing" constant="10" id="uPh-FG-Ucv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="b4h-zb-HHB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="C8Y-eV-jLL"/>
+                    <constraint firstItem="b4h-zb-HHB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="YGC-Px-Yxn"/>
+                    <constraint firstAttribute="bottom" secondItem="b4h-zb-HHB" secondAttribute="bottom" constant="10" id="ccP-Oc-g26"/>
+                    <constraint firstAttribute="trailing" secondItem="b4h-zb-HHB" secondAttribute="trailing" constant="1" id="wDf-t1-wpM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contactDoctor" destination="ABK-Hr-2Yy" id="F5k-kv-9uH"/>
+                <outlet property="doctorImage" destination="zQB-yO-zj4" id="YdF-Xv-MSk"/>
+                <outlet property="doctorName" destination="rk6-8u-uhx" id="j1c-d5-8xc"/>
+                <outlet property="doctorView" destination="BSH-OB-Sml" id="tDR-j9-QP7"/>
+                <outlet property="hospitalName" destination="SAi-F4-aH7" id="4ds-4l-WLo"/>
+            </connections>
+            <point key="canvasLocation" x="23.188405797101453" y="65.290178571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
